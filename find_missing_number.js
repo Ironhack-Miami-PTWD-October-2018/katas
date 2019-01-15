@@ -6,6 +6,11 @@
 
 // ************************************************************************************
 
+// The starting point: in the array of "n" elements, the sum is calculated using following math formula:
+// n*(n+1)/2
+// example: [1,2,3,4,5] => the sum is 15 and we can confirm that using the formula:
+// 5*(5+1)/2 = 30/2 = 15
+
 const arr = [3, 5, 6];
 
 function findMissing(someArr){
